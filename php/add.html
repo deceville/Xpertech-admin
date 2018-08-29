@@ -1,0 +1,62 @@
+<?php
+//logout
+	if (isset($_GET['logout'])) {
+		session_destroy();
+		unset($_SESSION['username']);
+		header('location: login.php');
+	}
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Packages</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 id="title"><a class="head" href="index.php">Xpertech Admin</a></h1>
+			<div class="table">
+				<ul id="nav">
+					<li><a class="head" href="index.php">HOME</a></li>
+					<li><a class="head" href="add.html">ADD A PACKAGE</a></li>
+					<li><a class="head" href="login.php?logout='1'" name="logout">LOGOUT</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<div class="content">
+			<h1 style="text-align: center;">Add new package</h1>
+			<form action="add.php" method="post" name="form1">
+				<table class="add" width="60%" border="0">
+					<tr> 
+						<td>Package name:</td>
+						<td><input class="field" type="text" name="name"></td>
+					</tr>
+					<tr> 
+						<td>Package description:</td>
+						<td><input class="field" type="text" name="desc"></td>
+					</tr>
+					<tr> 
+						<td>Digital Box price:</td>
+						<td><input class="field" type="text" name="digitalbox"></td>
+					</tr>
+					<tr> 
+						<td>Mainline monthly subscription price:</td>
+						<td><input class="field" type="text" name="mainline"></td>
+					</tr>
+					<tr> 
+						<td>Extension line monthly subscription price:</td>
+						<td><input class="field" type="text" name="extline"></td>
+					</tr>
+					<tr> 
+						<td></td>
+						<td><input class="button" type="submit" name="Submit" value="ADD"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

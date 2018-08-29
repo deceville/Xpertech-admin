@@ -1,0 +1,142 @@
+body{
+	font-family: 'Arial';
+}
+.header{
+	background-color: #4eaaed;
+	padding: 5%;
+	margin-top: -5%;
+}
+.table{
+	padding-right: 2%;
+	float: right;
+}
+ul#nav li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 30px;
+	font-size: 18px;
+}
+.table{
+	display: table;
+}
+#title{
+	display: inline-block;
+	float: left;
+	font-size: 26px;
+	color: #FFFFFF;
+}
+.head{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+button{
+	background-color: #4eaaed;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.content{
+	padding: 3%;
+}
+button:hover{
+    background-color: #3a82b7;
+    text-decoration: none;
+}
+a:hover{
+	color: #bbdff9;
+    text-decoration: none;
+}
+.label{
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+table{
+	margin: 0 auto;
+}
+
+.add td{
+	font-size: 20px;
+}
+
+.add{
+	padding: 30px;
+	border: 5px solid;
+	border-radius: 30px;
+	border-color: #4eaaed;
+}
+
+.field{
+	width: 180px;
+	height: 10px;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: #4eaaed;
+	background-color: 
+}
+.button{
+	margin-top: 30px;
+	background-color: #4eaaed;
+	border: none;
+	border-radius: 3px;
+    color: white;
+    width: 200px;
+	padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+}
+#successful{
+	float: left;
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #0f67a8;
+	margin: 5px;
+	color: #FFFFFF;
+}
+#unsuccessful{
+	float: left;
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #e21d4f;
+	margin: 5px;
+	color: #FFFFFF;
+}
+#total{
+	float: left;
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #1ea232;
+	margin: 5px;
+	color: #FFFFFF;
+}
+#call{
+	float: left;
+	display: inline-block;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #ff7d66;
+	margin: 5px;
+	color: #FFFFFF;
+}
+
+.boxes{
+	text-align: center;
+}
+
+.boxes p{
+	font-size: 50px;
+}
+table{
+	padding-top: 5%;
+}
